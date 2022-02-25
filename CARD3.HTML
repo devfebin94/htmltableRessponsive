@@ -1,0 +1,162 @@
+
+<div class="card-widget size-medium">
+  <div class="card-header">
+    <div class="card-block">
+      <h2 class="card-title">Visitors</h2>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="card-block">
+      <div class="card-stats">53.203</div>
+      <div class="card-time">This week</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <div class="card-block">
+      <div class="card-percent-of-goal">36%</div>
+      <div class="card-goal">145.8k</div>
+    </div>
+    <div class="card-progress-bar-wrapper">
+      <div class="card-progress-bar" style="width: 36%"></div>
+    </div>
+  </div>
+</div>
+<div class="card-widget size-small">
+  <div class="card-header">
+    <div class="card-block">
+      <h2 class="card-title">Signups</h2>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="card-block">
+      <div class="card-stats">109</div>
+      <div class="card-time">This week</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <div class="card-block">
+      <div class="card-percent-of-goal">52%</div>
+      <div class="card-goal">200</div>
+    </div>
+    <div class="card-progress-bar-wrapper">
+      <div class="card-progress-bar" style="width: 52%"></div>
+    </div>
+  </div>
+</div>
+<div class="card-widget size-small">
+  <div class="card-header">
+    <div class="card-block">
+      <h2 class="card-title">Churn</h2>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="card-block">
+      <div class="card-stats">1</div>
+      <div class="card-time">This week</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <div class="card-block">
+      <div class="card-percent-of-goal">20%</div>
+      <div class="card-goal">5</div>
+    </div>
+    <div class="card-progress-bar-wrapper">
+      <div class="card-progress-bar" style="width: 20%"></div>
+    </div>
+  </div>
+</div>
+
+
+body {
+	background-color: #101214;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.card-widget {
+	overflow: hidden;
+	background-color: #2a2a2a;
+	width: 33.333%;
+	float: left;
+	
+	.card-block {
+		overflow: hidden;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	// Header
+	.card-header {
+		margin-top: 10px;
+		.card-title {
+			margin: 0;
+			color: tomato;
+			font-weight: 300;
+		}
+	}
+	
+	// Body
+	.card-body {
+		margin-bottom: 100px;
+		color: #fff;
+		.card-stats {
+			font-size: 60px;
+		}
+		.card-time {
+			font-style: italic;
+			font-weight: 100;
+		}
+	}
+	
+
+	// Footer
+	.card-percent-of-goal {
+		float: left;
+		color: #3fb4f9;
+		font-size: 40px;
+	}
+	
+	.card-goal {
+		float: right;
+		padding: 4px;
+		font-size: 20px;
+		margin-top: 10px;
+		border-radius: 3px;
+		background-color: rgba(255,255,255,0.4);
+	}
+	
+	.card-progress-bar-wrapper {
+		margin-top: 10px;
+		width: 100%;
+		background-color: #454545;
+	}
+
+	.card-progress-bar {
+		height: 6px;
+		background-color: #3fb4f9;
+	}
+
+}
+
+
+// 
+
+// <div class="card">
+// 	<header class="card-header">
+// 		<div class="card-block">
+// 			<h2 class="card-title">Visitors</h2>
+// 		</div>
+// 	</header>
+// 	<div class="card-body">
+// 		<div class="card-block">
+// 			<div class="card-stats">53.2003</div>
+// 			<div class="card-time">This week</div>
+// 		</div>
+// 		<footer class="card-footer">
+// 			<div class="card-block">
+// 				<div class="card-percent-of-goal">36%</div>
+// 				<div class="card-goal">145.8k</div>
+// 			</div>
+// 			<div class="card-progress-bar"></div>
+// 		</footer>
+// 	</div>
+// </div>
